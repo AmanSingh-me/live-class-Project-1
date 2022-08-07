@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Orbitron", sans-serif;
+}
+
+.container {
+  height: 100vh;
+}
+.navbar-container {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar-container div img {
+  width: 110px;
+}
+.list {
+  display: flex;
+  list-style-type: none;
+}
+
+.list li {
+  font-weight: 500;
+  margin: 0 1em;
+  padding: 4px;
+}
+.list li:first-child {
+  font-weight: bold;
+  background: linear-gradient(#000000, #000000) bottom no-repeat;
+  background-size: 60% 2.5px;
+  order: 1; 
+}
+.list li:nth-child(2){
+  order: 3;
+}
+.list li:nth-child(3){
+  order: 2;
+}
+.list li:nth-child(4){
+  order: 4;
+}
+.list li:nth-child(5){
+  order: 5;
+}
+
+.button-group {
+  display: flex;
+}
+.search-icon svg {
+  height: 22px;
+  margin-top: 0.4em;
+  margin-right: 5px;
+}
+
+.nav-button {
+  border-radius: 10px;
+  color: black;
+  font-size: larger;
+  font-family: sans-serif;
+  padding: 4px 30px;
+}
+/* ------------------ Hero Container ------------------------- */
+
+.hero-container { 
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.hero-container div {
+  z-index: 999;
+}
+.globe,
+.square,
+.star {
+  position: absolute;
+}
+.globe img,
+.star img {
+  height: 50px;
+}
+.square img {
+  height: 16em;
+}
+.globe {
+  left: 53%;
+  top: 0;
+}
+.star {
+  right: 9em;
+  top: 20px;
+}
+.square {
+  top: 43%;
+  left: 12%;
+}
+
+.hero-container > div > img {
+  width: 95%;
+  margin-top: 8%;
+  margin-left: 13%;
+}
+
+.hero-container-right {
+  padding-top: 2em;
+  background: url(/assets/start.png) no-repeat ;
+  background-size:35px;
+ background-position: 20% calc(100% - 30px);
+}
+
+.hero-heading {
+  text-align: center;
+  font-size: 3.2em;
+  padding: 40px 0;
+}
+.hero-description {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 0 14em;
+  font-size: small;
+}
+
+.hero-container-right div {
+  text-align: center;
+}
+
+.button-email,
+.button-join {
+  border-radius: 6px;
+  font-weight: 600;
+  margin: 5em 1em;
+  padding: 5px 10px;
+}
+.button-join {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.contact-heading {
+  font-family: sans-serif;
+  font-weight: normal;
+}
+.icons img {
+  height: 50px;
+  padding: 10px;
+}
