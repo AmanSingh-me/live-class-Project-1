@@ -6,7 +6,7 @@
 - *How to use External font*
 
 
-[live link](https://live-class-project-1.vercel.app/){:target="_blank"}
+[live link](https://live-class-project-1.vercel.app/)
 
 
 
